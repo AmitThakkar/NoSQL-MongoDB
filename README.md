@@ -42,6 +42,7 @@ Agenda:
 ## Install MongoDB
 [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/).
 
-
+## Data Modeling
+![https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/data-modeling.png](https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/data-modeling.png)
 
 ## Queries
