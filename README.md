@@ -7,6 +7,7 @@ Agenda:
 * Why NoSQL?
 * Why MongoDB?
 * Install MongoDB
+* SQL terms in MongoDB
 * Data Modeling
 * Queries
 
@@ -32,19 +33,33 @@ Popular NoSQL Database: [http://nosql-database.org/](http://nosql-database.org/)
 ![https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/graph.png](https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/images/graph.png)
 
 ## Why is MongoDB?
-* A Document base NoSQL.
 * Rich query model.
 * Full Index Support
-* High Performance and high available.
+* High Performance.
 * Vertical + Horizontal scalable.
 * Geospatial support.
-* Map-Reduce
+* Map-Reduce.
 * Professional Support by MongoDB.
 
 ## Install MongoDB
 [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/).
 
+## SQL terms in MongoDB
+SQL          | MongoDB
+-------------|---------
+Database     | Database
+Table        | Collection
+Row          | Document
+Column       | Field
+
 ## Data Modeling
 ![https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/data-modeling.png](https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/images/data-modeling.png)
 
 ## Queries
+* To start MongoDB shell/client: `mongo`.
+* To list database names: `show dbs`.
+* To select a database: `use dbName`.
+* To list all the collection names: `show tables` or `show collections`.
+* To insert a document: `db.collectionName.insert({name:'Amit', age:27})`.
+* To remove a document: `db.collectionName.remove({name:'Amit'})`.
+* To read a document: `db.collectionName.find({name:'Amit'})`.
