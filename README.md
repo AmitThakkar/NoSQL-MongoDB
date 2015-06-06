@@ -1,5 +1,7 @@
-#Day 4 - Agenda
+#NoSQL  MongoDB
 
+Agenda:
+-------
 * What is NoSQL?
     * Not only SQL
     * NoSQL types:
@@ -19,15 +21,4 @@
     * Much faster then RDBMS
 * What is MongoDB?
 * Why MongoDB?
-* Install MongoDB [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/)
-
-
-* Getting Started with Mongoose
-
-
-* CommonJS module (require and export)
-* Custom Modules
-
-
-* Debugging
-* folder structure
+* Install MongoDB [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/).
