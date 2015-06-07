@@ -62,5 +62,7 @@ Column       | Field
 * To select a database: `use dbName`.
 * To list all the collection names: `show tables` or `show collections`.
 * To insert a document: `db.collectionName.insert({name:'Amit', age:27})`.
+* To update a document: `db.collectionName.update({name:'Amit'}, {name:'Amit Thakkar'})`.
+* To upsert a document: `db.collectionName.save({name:'Amit'})`. // Update will happen if _id matched.
 * To remove a document: `db.collectionName.remove({name:'Amit'})`.
 * To read a document: `db.collectionName.find({name:'Amit'})`.
