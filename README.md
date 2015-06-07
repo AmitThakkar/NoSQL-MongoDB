@@ -4,6 +4,7 @@ Agenda:
 -------
 
 * What is NoSQL?
+* NoSQL types
 * Why NoSQL?
 * Why MongoDB?
 * Install MongoDB
