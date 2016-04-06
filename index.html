@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Nosql-mongodb by AmitThakkar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Nosql-mongodb</h1>
+      <h2 class="project-tagline">This repository contains introduction to NoSQL and MongoDB</h2>
+      <a href="https://github.com/AmitThakkar/NoSQL-MongoDB" class="btn">View on GitHub</a>
+      <a href="https://github.com/AmitThakkar/NoSQL-MongoDB/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/AmitThakkar/NoSQL-MongoDB/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="nosql--mongodb" class="anchor" href="#nosql--mongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NoSQL  MongoDB</h1>
+
+<h2>
+<a id="agenda" class="anchor" href="#agenda" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Agenda:</h2>
+
+<ul>
+<li>What is NoSQL?</li>
+<li>NoSQL types</li>
+<li>Why NoSQL?</li>
+<li>Why MongoDB?</li>
+<li>Install MongoDB</li>
+<li>SQL terms in MongoDB</li>
+<li>Data Modeling</li>
+<li>Queries</li>
+</ul>
+
+<h2>
+<a id="what-is-nosql" class="anchor" href="#what-is-nosql" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is NoSQL?</h2>
+
+<p><code>Not only SQL</code></p>
+
+<h2>
+<a id="nosql-types" class="anchor" href="#nosql-types" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NoSQL types:</h2>
+
+<ul>
+<li>Document 
+
+<ol>
+<li>MongoDB</li>
+<li>CouchDB</li>
+</ol>
+</li>
+<li>Key-Value Pair
+
+<ol>
+<li>Redis</li>
+<li>Cassandra</li>
+</ol>
+</li>
+<li>Graph
+
+<ol>
+<li>Neo4j</li>
+<li>HyperGraphDB
+Popular NoSQL Database: <a href="http://nosql-database.org/">http://nosql-database.org/</a>.</li>
+</ol>
+</li>
+</ul>
+
+<h2>
+<a id="why-nosql" class="anchor" href="#why-nosql" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why NoSQL?</h2>
+
+<ul>
+<li>More scalable then RDBMS</li>
+<li>Can Handle large volumes of Data</li>
+<li>Much faster then RDBMS
+<img src="https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/images/graph.png" alt="https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/graph.png">
+</li>
+</ul>
+
+<h2>
+<a id="why-is-mongodb" class="anchor" href="#why-is-mongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why is MongoDB?</h2>
+
+<ul>
+<li>Rich query model.</li>
+<li>Full Index Support</li>
+<li>High Performance.</li>
+<li>Vertical + Horizontal scalable.</li>
+<li>Geospatial support.</li>
+<li>Map-Reduce.</li>
+<li>Professional Support by MongoDB.</li>
+</ul>
+
+<h2>
+<a id="install-mongodb" class="anchor" href="#install-mongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install MongoDB</h2>
+
+<p><a href="http://docs.mongodb.org/manual/installation/">http://docs.mongodb.org/manual/installation/</a>.</p>
+
+<h2>
+<a id="sql-terms-in-mongodb" class="anchor" href="#sql-terms-in-mongodb" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SQL terms in MongoDB</h2>
+
+<table>
+<thead>
+<tr>
+<th>SQL</th>
+<th>MongoDB</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Database</td>
+<td>Database</td>
+</tr>
+<tr>
+<td>Table</td>
+<td>Collection</td>
+</tr>
+<tr>
+<td>Row</td>
+<td>Document</td>
+</tr>
+<tr>
+<td>Column</td>
+<td>Field</td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="data-modeling" class="anchor" href="#data-modeling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Modeling</h2>
+
+<p><img src="https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/images/data-modeling.png" alt="https://raw.githubusercontent.com/AmitThakkar/NoSQL-MongoDB/master/data-modeling.png"></p>
+
+<h2>
+<a id="queries" class="anchor" href="#queries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Queries</h2>
+
+<ul>
+<li>To start MongoDB shell/client: <code>mongo</code>.</li>
+<li>To list database names: <code>show dbs</code>.</li>
+<li>To select a database: <code>use dbName</code>.</li>
+<li>To list all the collection names: <code>show tables</code> or <code>show collections</code>.</li>
+<li>To insert a document: <code>db.collectionName.insert({name:'Amit', age:27})</code>.</li>
+<li>To update a document: <code>db.collectionName.update({name:'Amit'}, {name:'Amit Thakkar'})</code>.</li>
+<li>To upsert a document: <code>db.collectionName.save({name:'Amit'})</code>. // Update will happen if _id matched.</li>
+<li>To remove a document: <code>db.collectionName.remove({name:'Amit'})</code>.</li>
+<li>To read a document: <code>db.collectionName.find({name:'Amit'})</code>.</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/AmitThakkar/NoSQL-MongoDB">Nosql-mongodb</a> is maintained by <a href="https://github.com/AmitThakkar">AmitThakkar</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
