@@ -66,3 +66,13 @@ Column       | Field
 * To upsert a document: `db.collectionName.save({name:'Amit'})`. // Update will happen if _id matched.
 * To remove a document: `db.collectionName.remove({name:'Amit'})`.
 * To read a document: `db.collectionName.find({name:'Amit'})`.
+
+Follow Me
+---
+[Github](https://github.com/AmitThakkar)
+
+[Twitter](https://twitter.com/amit_thakkar01)
+
+[LinkedIn](https://in.linkedin.com/in/amitthakkar01)
+
+[More Blogs By Me](http://amitthakkar.github.io/)
